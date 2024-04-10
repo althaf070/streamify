@@ -5,6 +5,11 @@ import { ClerkProvider } from "@clerk/nextjs";
 import { dark } from "@clerk/themes"
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "sonner";
+
+import '@stream-io/video-react-sdk/dist/css/styles.css';
+import "@stream-io/video-react-sdk/dist/css/styles.css";
+import "react-datepicker/dist/react-datepicker.css";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
