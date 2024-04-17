@@ -3,12 +3,11 @@ import { CallList } from "@/components/meet/CallList"
 
 const UpcomingPage = () => {
   return (
-    <div>UpcomingPage
+    <section className="flex size-full flex-col gap-10 text-white">
+    <h1 className="text-3xl font-bold">Upcoming Meeting</h1>
 
-      <CallList
-      type="upcoming"
-      />
-    </div>
+    <CallList type="upcoming" />
+  </section>
   )
 }
 

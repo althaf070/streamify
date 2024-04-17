@@ -26,7 +26,7 @@ model User {
   blockedBy Block[] @relation("BlockedBy")
 
   stream Stream?
-
+  
    createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
@@ -82,3 +82,4 @@ model Block {
    @@index([blockerId])
    @@index([blockedId])
 }
+

@@ -1,12 +1,13 @@
 import { CallList } from '@/components/meet/CallList'
-import React from 'react'
+
 
 const Recordingspage = () => {
   return (
-    <div>Recordingspage
+    <section className="flex size-full flex-col gap-10 text-white">
+      <h1 className="text-3xl font-bold">Recordings</h1>
 
-      <CallList type='recordings' />
-    </div>
+      <CallList type="recordings" />
+    </section>
   )
 }
 
